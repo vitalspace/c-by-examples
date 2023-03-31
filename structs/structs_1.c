@@ -2,7 +2,7 @@
 
 int main() {
     
-    // Define a structure that contanins a field "name" and other field "age"
+    // Define a structure that contanins a field "name" and other field "age".
     struct person
     {
         /* data */
@@ -10,7 +10,7 @@ int main() {
         int age;
     };
 
-    // Create a insatnce od the struct "person" in the memory stack
+    // Create a insatnce od the struct "person" in the memory stack.
     struct person user;
 
     // Assing values to the fields of the structure using the "." operator.
@@ -20,4 +20,5 @@ int main() {
     // Print the values of the fields of the structure.
     printf("Hello my name is %s, i'm %d years old.\n", user.name, user.age);
 
+    return 0;
 }
