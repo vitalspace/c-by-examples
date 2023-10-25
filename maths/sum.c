@@ -10,4 +10,5 @@ int main () {
     int b = 3;
     int result = sum(a, b);
     printf("%d + %d = %d\n" , a, b, result );
+    return 0;
 }

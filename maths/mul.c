@@ -10,4 +10,5 @@ int main () {
     int result = mult(a, b);
 
     printf("%d * %d = %d\n", a, b, result);
+    return 0;
 }
