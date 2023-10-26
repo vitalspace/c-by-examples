@@ -12,7 +12,7 @@ void convertToDouble(char *arr[], int len) {
 int main() {
     // Array of string representations of numbers.
     char *numbersArr[] = {"12.123", "1.233223", "234.333"};
-    int len = sizeof(numbersArr) / sizeof(numbersArr[0]; // Calculate the number of elements in the array.
+    int len = sizeof(numbersArr) / sizeof(numbersArr[0]); // Calculate the number of elements in the array.
 
     // Call the function to convert and print the double values.
     convertToDouble(numbersArr, len);
